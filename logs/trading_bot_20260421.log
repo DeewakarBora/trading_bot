@@ -262,3 +262,18 @@
 2026-04-21 16:12:08 | INFO     | trading_bot.cli | Trading bot started
 2026-04-21 16:12:08 | DEBUG    | trading_bot.validators | Order type validated: MARKET
 2026-04-21 16:12:08 | ERROR    | trading_bot.cli | Validation failed: Invalid symbol 'INVALID'. Expected format: BTCUSDT, ETHUSDT, etc.
+2026-04-21 16:23:30 | INFO     | trading_bot.cli | ============================================================
+2026-04-21 16:23:30 | INFO     | trading_bot.cli | Trading bot started
+2026-04-21 16:24:26 | DEBUG    | trading_bot.validators | Order type validated: MARKET
+2026-04-21 16:24:26 | DEBUG    | trading_bot.validators | Symbol validated: BTCUSDT
+2026-04-21 16:24:26 | DEBUG    | trading_bot.validators | Side validated: BUY
+2026-04-21 16:24:26 | DEBUG    | trading_bot.validators | Quantity validated: 0.001
+2026-04-21 16:24:34 | INFO     | trading_bot.orders | Placing BUY MARKET order | symbol=BTCUSDT qty=0.001
+2026-04-21 16:24:34 | DEBUG    | trading_bot.orders | Order request params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001'}
+2026-04-21 16:24:34 | DEBUG    | trading_bot.client | POST /fapi/v1/order
+2026-04-21 16:24:35 | DEBUG    | trading_bot.client | HTTP 200 https://testnet.binancefuture.com/fapi/v1/order
+2026-04-21 16:24:35 | DEBUG    | trading_bot.client | Response body: {"orderId":13057375611,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"700AJspdlhQu89kUjObcck","price":"0.00","avgPrice":"0.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","cumQuote":"0.000000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1776768875550}
+2026-04-21 16:24:35 | INFO     | trading_bot.orders | Order accepted | orderId=13057375611 status=NEW executedQty=0.0000 avgPrice=0.00
+2026-04-21 16:24:35 | DEBUG    | trading_bot.orders | Full order response: {'orderId': 13057375611, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': '700AJspdlhQu89kUjObcck', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1776768875550}
+2026-04-21 16:24:35 | INFO     | trading_bot.cli | Trading bot finished successfully
+2026-04-21 16:24:35 | INFO     | trading_bot.cli | ============================================================

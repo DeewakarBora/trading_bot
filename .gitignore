@@ -1,0 +1,25 @@
+# Environment variables — never commit API keys
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Logs (we'll add sample logs manually later)
+logs/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# VS Code
+.vscode/
+
+# Distribution
+dist/
+build/
+*.egg-info/

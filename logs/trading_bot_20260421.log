@@ -1,0 +1,264 @@
+2026-04-21 12:19:27 | INFO     | trading_bot.cli | ============================================================
+2026-04-21 12:19:27 | INFO     | trading_bot.cli | Trading bot started
+2026-04-21 12:19:27 | DEBUG    | trading_bot.validators | Order type validated: MARKET
+2026-04-21 12:19:27 | DEBUG    | trading_bot.validators | Symbol validated: BTCUSDT
+2026-04-21 12:19:27 | DEBUG    | trading_bot.validators | Side validated: BUY
+2026-04-21 12:19:27 | DEBUG    | trading_bot.validators | Quantity validated: 0.001
+2026-04-21 12:19:27 | INFO     | trading_bot.orders | Placing BUY MARKET order | symbol=BTCUSDT qty=0.001
+2026-04-21 12:19:27 | DEBUG    | trading_bot.orders | Order request params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001'}
+2026-04-21 12:19:27 | DEBUG    | trading_bot.client | POST /fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1776754167609}
+2026-04-21 12:19:28 | DEBUG    | trading_bot.client | HTTP 401 https://testnet.binancefuture.com/fapi/v1/order
+2026-04-21 12:19:28 | DEBUG    | trading_bot.client | Response body: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-04-21 12:19:28 | ERROR    | trading_bot.orders | Order rejected by Binance | code=-2015 msg=Invalid API-key, IP, or permissions for action
+2026-04-21 12:19:28 | ERROR    | trading_bot.cli | Binance API error: Binance API error -2015: Invalid API-key, IP, or permissions for action
+2026-04-21 12:25:44 | INFO     | trading_bot.cli | ============================================================
+2026-04-21 12:25:44 | INFO     | trading_bot.cli | Trading bot started
+2026-04-21 12:25:44 | DEBUG    | trading_bot.validators | Order type validated: MARKET
+2026-04-21 12:25:44 | DEBUG    | trading_bot.validators | Symbol validated: BTCUSDT
+2026-04-21 12:25:44 | DEBUG    | trading_bot.validators | Side validated: BUY
+2026-04-21 12:25:44 | DEBUG    | trading_bot.validators | Quantity validated: 0.001
+2026-04-21 12:25:44 | INFO     | trading_bot.orders | Placing BUY MARKET order | symbol=BTCUSDT qty=0.001
+2026-04-21 12:25:44 | DEBUG    | trading_bot.orders | Order request params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001'}
+2026-04-21 12:25:44 | DEBUG    | trading_bot.client | POST /fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1776754544929}
+2026-04-21 12:25:45 | DEBUG    | trading_bot.client | HTTP 401 https://testnet.binancefuture.com/fapi/v1/order
+2026-04-21 12:25:45 | DEBUG    | trading_bot.client | Response body: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-04-21 12:25:45 | ERROR    | trading_bot.orders | Order rejected by Binance | code=-2015 msg=Invalid API-key, IP, or permissions for action
+2026-04-21 12:25:45 | ERROR    | trading_bot.cli | Binance API error: Binance API error -2015: Invalid API-key, IP, or permissions for action
+2026-04-21 12:27:46 | INFO     | trading_bot.cli | ============================================================
+2026-04-21 12:27:46 | INFO     | trading_bot.cli | Trading bot started
+2026-04-21 12:27:46 | DEBUG    | trading_bot.validators | Order type validated: MARKET
+2026-04-21 12:27:46 | DEBUG    | trading_bot.validators | Symbol validated: BTCUSDT
+2026-04-21 12:27:46 | DEBUG    | trading_bot.validators | Side validated: BUY
+2026-04-21 12:27:46 | DEBUG    | trading_bot.validators | Quantity validated: 0.001
+2026-04-21 12:27:46 | INFO     | trading_bot.orders | Placing BUY MARKET order | symbol=BTCUSDT qty=0.001
+2026-04-21 12:27:46 | DEBUG    | trading_bot.orders | Order request params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001'}
+2026-04-21 12:27:46 | DEBUG    | trading_bot.client | POST /fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1776754666148}
+2026-04-21 12:27:46 | DEBUG    | trading_bot.client | HTTP 401 https://testnet.binancefuture.com/fapi/v1/order
+2026-04-21 12:27:46 | DEBUG    | trading_bot.client | Response body: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-04-21 12:27:46 | ERROR    | trading_bot.orders | Order rejected by Binance | code=-2015 msg=Invalid API-key, IP, or permissions for action
+2026-04-21 12:27:46 | ERROR    | trading_bot.cli | Binance API error: Binance API error -2015: Invalid API-key, IP, or permissions for action
+2026-04-21 12:32:44 | INFO     | trading_bot.cli | ============================================================
+2026-04-21 12:32:44 | INFO     | trading_bot.cli | Trading bot started
+2026-04-21 12:32:44 | DEBUG    | trading_bot.validators | Order type validated: MARKET
+2026-04-21 12:32:44 | DEBUG    | trading_bot.validators | Symbol validated: BTCUSDT
+2026-04-21 12:32:44 | DEBUG    | trading_bot.validators | Side validated: BUY
+2026-04-21 12:32:44 | DEBUG    | trading_bot.validators | Quantity validated: 0.001
+2026-04-21 12:32:44 | INFO     | trading_bot.orders | Placing BUY MARKET order | symbol=BTCUSDT qty=0.001
+2026-04-21 12:32:44 | DEBUG    | trading_bot.orders | Order request params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001'}
+2026-04-21 12:32:44 | DEBUG    | trading_bot.client | POST /fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1776754964160}
+2026-04-21 12:32:44 | DEBUG    | trading_bot.client | HTTP 401 https://demo-fapi.binance.com/fapi/v1/order
+2026-04-21 12:32:44 | DEBUG    | trading_bot.client | Response body: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-04-21 12:32:44 | ERROR    | trading_bot.orders | Order rejected by Binance | code=-2015 msg=Invalid API-key, IP, or permissions for action
+2026-04-21 12:32:44 | ERROR    | trading_bot.cli | Binance API error: Binance API error -2015: Invalid API-key, IP, or permissions for action
+2026-04-21 12:33:50 | INFO     | trading_bot.cli | ============================================================
+2026-04-21 12:33:50 | INFO     | trading_bot.cli | Trading bot started
+2026-04-21 12:33:50 | DEBUG    | trading_bot.validators | Order type validated: MARKET
+2026-04-21 12:33:50 | DEBUG    | trading_bot.validators | Symbol validated: BTCUSDT
+2026-04-21 12:33:50 | DEBUG    | trading_bot.validators | Side validated: BUY
+2026-04-21 12:33:50 | DEBUG    | trading_bot.validators | Quantity validated: 0.001
+2026-04-21 12:33:50 | INFO     | trading_bot.orders | Placing BUY MARKET order | symbol=BTCUSDT qty=0.001
+2026-04-21 12:33:50 | DEBUG    | trading_bot.orders | Order request params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001'}
+2026-04-21 12:33:50 | DEBUG    | trading_bot.client | POST /fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1776755030817}
+2026-04-21 12:33:51 | DEBUG    | trading_bot.client | HTTP 401 https://demo-fapi.binance.com/fapi/v1/order
+2026-04-21 12:33:51 | DEBUG    | trading_bot.client | Response body: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-04-21 12:33:51 | ERROR    | trading_bot.orders | Order rejected by Binance | code=-2015 msg=Invalid API-key, IP, or permissions for action
+2026-04-21 12:33:51 | ERROR    | trading_bot.cli | Binance API error: Binance API error -2015: Invalid API-key, IP, or permissions for action
+2026-04-21 12:36:39 | DEBUG    | trading_bot.client | GET /fapi/v1/account | params: {'timestamp': 1776755199476}
+2026-04-21 12:36:40 | DEBUG    | trading_bot.client | HTTP 404 https://demo-fapi.binance.com/fapi/v1/account?timestamp=1776755199476&signature=503602d41e8d39e5bb1e2612028f20fb823a6c9ea2d4ae0c05b2a8ec442dbd87
+2026-04-21 12:36:40 | DEBUG    | trading_bot.client | Response body: {"code":-5000,"msg":"Path /fapi/v1/account, Method GET is invalid"}
+2026-04-21 12:37:20 | DEBUG    | trading_bot.client | GET /fapi/v2/account | params: {'timestamp': 1776755240049}
+2026-04-21 12:37:20 | DEBUG    | trading_bot.client | HTTP 401 https://demo-fapi.binance.com/fapi/v2/account?timestamp=1776755240049&signature=0d3cddcfbc8a27c5ff6ec4b0b53e16f4f36f6a78b879c6edc23d26a6782aaaaa
+2026-04-21 12:37:20 | DEBUG    | trading_bot.client | Response body: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-04-21 12:37:25 | DEBUG    | trading_bot.client | GET /fapi/v2/account | params: {'timestamp': 1776755245347}
+2026-04-21 12:37:25 | DEBUG    | trading_bot.client | HTTP 401 https://demo-fapi.binance.com/fapi/v2/account?timestamp=1776755245347&signature=8df92076ea3d5788e1f046d4083fd03de1ad92cf0f99d534705f9ccc995504d6
+2026-04-21 12:37:25 | DEBUG    | trading_bot.client | Response body: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-04-21 12:43:29 | INFO     | trading_bot.cli | ============================================================
+2026-04-21 12:43:29 | INFO     | trading_bot.cli | Trading bot started
+2026-04-21 12:43:29 | DEBUG    | trading_bot.validators | Order type validated: MARKET
+2026-04-21 12:43:29 | DEBUG    | trading_bot.validators | Symbol validated: BTCUSDT
+2026-04-21 12:43:29 | DEBUG    | trading_bot.validators | Side validated: BUY
+2026-04-21 12:43:29 | DEBUG    | trading_bot.validators | Quantity validated: 0.001
+2026-04-21 12:43:29 | INFO     | trading_bot.orders | Placing BUY MARKET order | symbol=BTCUSDT qty=0.001
+2026-04-21 12:43:29 | DEBUG    | trading_bot.orders | Order request params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001'}
+2026-04-21 12:43:29 | DEBUG    | trading_bot.client | POST /fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1776755609038}
+2026-04-21 12:43:29 | DEBUG    | trading_bot.client | HTTP 401 https://demo-fapi.binance.com/fapi/v1/order
+2026-04-21 12:43:29 | DEBUG    | trading_bot.client | Response body: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-04-21 12:43:29 | ERROR    | trading_bot.orders | Order rejected by Binance | code=-2015 msg=Invalid API-key, IP, or permissions for action
+2026-04-21 12:43:29 | ERROR    | trading_bot.cli | Binance API error: Binance API error -2015: Invalid API-key, IP, or permissions for action
+2026-04-21 12:44:39 | DEBUG    | trading_bot.client | POST /fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1776755679391}
+2026-04-21 12:44:40 | DEBUG    | trading_bot.client | HTTP 401 https://demo-fapi.binance.com/fapi/v1/order
+2026-04-21 12:44:40 | DEBUG    | trading_bot.client | Response body: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-04-21 12:46:35 | INFO     | trading_bot.cli | ============================================================
+2026-04-21 12:46:35 | INFO     | trading_bot.cli | Trading bot started
+2026-04-21 12:46:35 | DEBUG    | trading_bot.validators | Order type validated: MARKET
+2026-04-21 12:46:35 | DEBUG    | trading_bot.validators | Symbol validated: BTCUSDT
+2026-04-21 12:46:35 | DEBUG    | trading_bot.validators | Side validated: BUY
+2026-04-21 12:46:35 | DEBUG    | trading_bot.validators | Quantity validated: 0.001
+2026-04-21 12:46:35 | INFO     | trading_bot.orders | Placing BUY MARKET order | symbol=BTCUSDT qty=0.001
+2026-04-21 12:46:35 | DEBUG    | trading_bot.orders | Order request params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001'}
+2026-04-21 12:46:35 | DEBUG    | trading_bot.client | POST /fapi/v1/order
+2026-04-21 12:46:36 | DEBUG    | trading_bot.client | HTTP 401 https://demo-fapi.binance.com/fapi/v1/order
+2026-04-21 12:46:36 | DEBUG    | trading_bot.client | Response body: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-04-21 12:46:36 | ERROR    | trading_bot.orders | Order rejected by Binance | code=-2015 msg=Invalid API-key, IP, or permissions for action
+2026-04-21 12:46:36 | ERROR    | trading_bot.cli | Binance API error: Binance API error -2015: Invalid API-key, IP, or permissions for action
+2026-04-21 15:48:37 | INFO     | trading_bot.cli | ============================================================
+2026-04-21 15:48:37 | INFO     | trading_bot.cli | Trading bot started
+2026-04-21 15:48:37 | DEBUG    | trading_bot.validators | Order type validated: MARKET
+2026-04-21 15:48:37 | DEBUG    | trading_bot.validators | Symbol validated: BTCUSDT
+2026-04-21 15:48:37 | DEBUG    | trading_bot.validators | Side validated: BUY
+2026-04-21 15:48:37 | DEBUG    | trading_bot.validators | Quantity validated: 0.001
+2026-04-21 15:48:37 | INFO     | trading_bot.orders | Placing BUY MARKET order | symbol=BTCUSDT qty=0.001
+2026-04-21 15:48:37 | DEBUG    | trading_bot.orders | Order request params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001'}
+2026-04-21 15:48:37 | DEBUG    | trading_bot.client | POST /fapi/v1/order
+2026-04-21 15:48:38 | DEBUG    | trading_bot.client | HTTP 401 https://testnet.binancefuture.com/fapi/v1/order
+2026-04-21 15:48:38 | DEBUG    | trading_bot.client | Response body: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-04-21 15:48:38 | ERROR    | trading_bot.orders | Order rejected by Binance | code=-2015 msg=Invalid API-key, IP, or permissions for action
+2026-04-21 15:48:38 | ERROR    | trading_bot.cli | Binance API error: Binance API error -2015: Invalid API-key, IP, or permissions for action
+2026-04-21 16:00:26 | INFO     | trading_bot.cli | ============================================================
+2026-04-21 16:00:26 | INFO     | trading_bot.cli | Trading bot started
+2026-04-21 16:00:26 | DEBUG    | trading_bot.validators | Order type validated: MARKET
+2026-04-21 16:00:26 | DEBUG    | trading_bot.validators | Symbol validated: BTCUSDT
+2026-04-21 16:00:26 | DEBUG    | trading_bot.validators | Side validated: BUY
+2026-04-21 16:00:26 | DEBUG    | trading_bot.validators | Quantity validated: 0.001
+2026-04-21 16:00:26 | INFO     | trading_bot.orders | Placing BUY MARKET order | symbol=BTCUSDT qty=0.001
+2026-04-21 16:00:26 | DEBUG    | trading_bot.orders | Order request params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001'}
+2026-04-21 16:00:26 | DEBUG    | trading_bot.client | POST /fapi/v1/order
+2026-04-21 16:00:26 | DEBUG    | trading_bot.client | HTTP 400 https://testnet.binancefuture.com/fapi/v1/order
+2026-04-21 16:00:26 | DEBUG    | trading_bot.client | Response body: {"code":-1022,"msg":"Signature for this request is not valid."}
+2026-04-21 16:00:26 | ERROR    | trading_bot.orders | Order rejected by Binance | code=-1022 msg=Signature for this request is not valid.
+2026-04-21 16:00:26 | ERROR    | trading_bot.cli | Binance API error: Binance API error -1022: Signature for this request is not valid.
+2026-04-21 16:06:57 | INFO     | trading_bot.cli | ============================================================
+2026-04-21 16:06:57 | INFO     | trading_bot.cli | Trading bot started
+2026-04-21 16:06:57 | DEBUG    | trading_bot.validators | Order type validated: MARKET
+2026-04-21 16:06:57 | DEBUG    | trading_bot.validators | Symbol validated: BTCUSDT
+2026-04-21 16:06:57 | DEBUG    | trading_bot.validators | Side validated: BUY
+2026-04-21 16:06:57 | DEBUG    | trading_bot.validators | Quantity validated: 0.001
+2026-04-21 16:06:57 | INFO     | trading_bot.orders | Placing BUY MARKET order | symbol=BTCUSDT qty=0.001
+2026-04-21 16:06:57 | DEBUG    | trading_bot.orders | Order request params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001'}
+2026-04-21 16:06:57 | DEBUG    | trading_bot.client | POST /fapi/v1/order
+2026-04-21 16:06:58 | DEBUG    | trading_bot.client | HTTP 200 https://testnet.binancefuture.com/fapi/v1/order
+2026-04-21 16:06:58 | DEBUG    | trading_bot.client | Response body: {"orderId":13057319797,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"v7QF0ESKRAvw9AZGGZErHV","price":"0.00","avgPrice":"0.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","cumQuote":"0.000000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1776767818414}
+2026-04-21 16:06:58 | INFO     | trading_bot.orders | Order accepted | orderId=13057319797 status=NEW executedQty=0.0000 avgPrice=0.00
+2026-04-21 16:06:58 | DEBUG    | trading_bot.orders | Full order response: {'orderId': 13057319797, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'v7QF0ESKRAvw9AZGGZErHV', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1776767818414}
+2026-04-21 16:06:58 | INFO     | trading_bot.cli | Trading bot finished successfully
+2026-04-21 16:06:58 | INFO     | trading_bot.cli | ============================================================
+2026-04-21 16:09:24 | INFO     | trading_bot.cli | ============================================================
+2026-04-21 16:09:24 | INFO     | trading_bot.cli | Trading bot started
+2026-04-21 16:09:24 | DEBUG    | trading_bot.validators | Order type validated: MARKET
+2026-04-21 16:09:24 | DEBUG    | trading_bot.validators | Symbol validated: BTCUSDT
+2026-04-21 16:09:24 | DEBUG    | trading_bot.validators | Side validated: SELL
+2026-04-21 16:09:24 | DEBUG    | trading_bot.validators | Quantity validated: 0.001
+2026-04-21 16:09:24 | INFO     | trading_bot.orders | Placing SELL MARKET order | symbol=BTCUSDT qty=0.001
+2026-04-21 16:09:24 | DEBUG    | trading_bot.orders | Order request params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'MARKET', 'quantity': '0.001'}
+2026-04-21 16:09:24 | DEBUG    | trading_bot.client | POST /fapi/v1/order
+2026-04-21 16:09:24 | DEBUG    | trading_bot.client | HTTP 200 https://testnet.binancefuture.com/fapi/v1/order
+2026-04-21 16:09:24 | DEBUG    | trading_bot.client | Response body: {"orderId":13057324958,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"DjPUM3FqMdn9TiqjMQZbwy","price":"0.00","avgPrice":"0.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","cumQuote":"0.000000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"SELL","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1776767964895}
+2026-04-21 16:09:24 | INFO     | trading_bot.orders | Order accepted | orderId=13057324958 status=NEW executedQty=0.0000 avgPrice=0.00
+2026-04-21 16:09:24 | DEBUG    | trading_bot.orders | Full order response: {'orderId': 13057324958, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'DjPUM3FqMdn9TiqjMQZbwy', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1776767964895}
+2026-04-21 16:09:24 | INFO     | trading_bot.cli | Trading bot finished successfully
+2026-04-21 16:09:24 | INFO     | trading_bot.cli | ============================================================
+2026-04-21 16:09:34 | INFO     | trading_bot.cli | ============================================================
+2026-04-21 16:09:34 | INFO     | trading_bot.cli | Trading bot started
+2026-04-21 16:09:34 | DEBUG    | trading_bot.validators | Order type validated: LIMIT
+2026-04-21 16:09:34 | DEBUG    | trading_bot.validators | Symbol validated: BTCUSDT
+2026-04-21 16:09:34 | DEBUG    | trading_bot.validators | Side validated: BUY
+2026-04-21 16:09:34 | DEBUG    | trading_bot.validators | Quantity validated: 0.001
+2026-04-21 16:09:34 | DEBUG    | trading_bot.validators | Price validated: 50000
+2026-04-21 16:09:34 | INFO     | trading_bot.orders | Placing BUY LIMIT order | symbol=BTCUSDT qty=0.001 price=50000
+2026-04-21 16:09:34 | DEBUG    | trading_bot.orders | Order request params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': '0.001', 'price': '50000', 'timeInForce': 'GTC'}
+2026-04-21 16:09:34 | DEBUG    | trading_bot.client | POST /fapi/v1/order
+2026-04-21 16:09:35 | DEBUG    | trading_bot.client | HTTP 200 https://testnet.binancefuture.com/fapi/v1/order
+2026-04-21 16:09:35 | DEBUG    | trading_bot.client | Response body: {"orderId":13057325296,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"eQpS7UiXvBliFgI128EybU","price":"50000.00","avgPrice":"0.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","cumQuote":"0.000000","timeInForce":"GTC","type":"LIMIT","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"LIMIT","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1776767975325}
+2026-04-21 16:09:35 | INFO     | trading_bot.orders | Order accepted | orderId=13057325296 status=NEW executedQty=0.0000 avgPrice=0.00
+2026-04-21 16:09:35 | DEBUG    | trading_bot.orders | Full order response: {'orderId': 13057325296, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'eQpS7UiXvBliFgI128EybU', 'price': '50000.00', 'avgPrice': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1776767975325}
+2026-04-21 16:09:35 | INFO     | trading_bot.cli | Trading bot finished successfully
+2026-04-21 16:09:35 | INFO     | trading_bot.cli | ============================================================
+2026-04-21 16:09:45 | INFO     | trading_bot.cli | ============================================================
+2026-04-21 16:09:45 | INFO     | trading_bot.cli | Trading bot started
+2026-04-21 16:09:45 | DEBUG    | trading_bot.validators | Order type validated: LIMIT
+2026-04-21 16:09:45 | DEBUG    | trading_bot.validators | Symbol validated: BTCUSDT
+2026-04-21 16:09:45 | DEBUG    | trading_bot.validators | Side validated: SELL
+2026-04-21 16:09:45 | DEBUG    | trading_bot.validators | Quantity validated: 0.001
+2026-04-21 16:09:45 | DEBUG    | trading_bot.validators | Price validated: 90000
+2026-04-21 16:09:45 | INFO     | trading_bot.orders | Placing SELL LIMIT order | symbol=BTCUSDT qty=0.001 price=90000
+2026-04-21 16:09:45 | DEBUG    | trading_bot.orders | Order request params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '90000', 'timeInForce': 'GTC'}
+2026-04-21 16:09:45 | DEBUG    | trading_bot.client | POST /fapi/v1/order
+2026-04-21 16:09:46 | DEBUG    | trading_bot.client | HTTP 200 https://testnet.binancefuture.com/fapi/v1/order
+2026-04-21 16:09:46 | DEBUG    | trading_bot.client | Response body: {"orderId":13057325603,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"DC9iOeQQQulwnPBeveycrd","price":"90000.00","avgPrice":"0.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","cumQuote":"0.000000","timeInForce":"GTC","type":"LIMIT","reduceOnly":false,"closePosition":false,"side":"SELL","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"LIMIT","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1776767986395}
+2026-04-21 16:09:46 | INFO     | trading_bot.orders | Order accepted | orderId=13057325603 status=NEW executedQty=0.0000 avgPrice=0.00
+2026-04-21 16:09:46 | DEBUG    | trading_bot.orders | Full order response: {'orderId': 13057325603, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'DC9iOeQQQulwnPBeveycrd', 'price': '90000.00', 'avgPrice': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1776767986395}
+2026-04-21 16:09:46 | INFO     | trading_bot.cli | Trading bot finished successfully
+2026-04-21 16:09:46 | INFO     | trading_bot.cli | ============================================================
+2026-04-21 16:10:59 | INFO     | trading_bot.cli | ============================================================
+2026-04-21 16:10:59 | INFO     | trading_bot.cli | Trading bot started
+2026-04-21 16:10:59 | DEBUG    | trading_bot.validators | Order type validated: MARKET
+2026-04-21 16:10:59 | DEBUG    | trading_bot.validators | Symbol validated: BTCUSDT
+2026-04-21 16:10:59 | DEBUG    | trading_bot.validators | Side validated: BUY
+2026-04-21 16:10:59 | DEBUG    | trading_bot.validators | Quantity validated: 0.001
+2026-04-21 16:10:59 | INFO     | trading_bot.orders | Placing BUY MARKET order | symbol=BTCUSDT qty=0.001
+2026-04-21 16:10:59 | DEBUG    | trading_bot.orders | Order request params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001'}
+2026-04-21 16:10:59 | DEBUG    | trading_bot.client | POST /fapi/v1/order
+2026-04-21 16:11:00 | DEBUG    | trading_bot.client | HTTP 200 https://testnet.binancefuture.com/fapi/v1/order
+2026-04-21 16:11:00 | DEBUG    | trading_bot.client | Response body: {"orderId":13057328608,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"IvZq5QGIjSYkELK2tVirMR","price":"0.00","avgPrice":"0.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","cumQuote":"0.000000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1776768060347}
+2026-04-21 16:11:00 | INFO     | trading_bot.orders | Order accepted | orderId=13057328608 status=NEW executedQty=0.0000 avgPrice=0.00
+2026-04-21 16:11:00 | DEBUG    | trading_bot.orders | Full order response: {'orderId': 13057328608, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'IvZq5QGIjSYkELK2tVirMR', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1776768060347}
+2026-04-21 16:11:00 | INFO     | trading_bot.cli | Trading bot finished successfully
+2026-04-21 16:11:00 | INFO     | trading_bot.cli | ============================================================
+2026-04-21 16:11:08 | INFO     | trading_bot.cli | ============================================================
+2026-04-21 16:11:08 | INFO     | trading_bot.cli | Trading bot started
+2026-04-21 16:11:08 | DEBUG    | trading_bot.validators | Order type validated: MARKET
+2026-04-21 16:11:08 | DEBUG    | trading_bot.validators | Symbol validated: BTCUSDT
+2026-04-21 16:11:08 | DEBUG    | trading_bot.validators | Side validated: SELL
+2026-04-21 16:11:08 | DEBUG    | trading_bot.validators | Quantity validated: 0.001
+2026-04-21 16:11:08 | INFO     | trading_bot.orders | Placing SELL MARKET order | symbol=BTCUSDT qty=0.001
+2026-04-21 16:11:08 | DEBUG    | trading_bot.orders | Order request params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'MARKET', 'quantity': '0.001'}
+2026-04-21 16:11:08 | DEBUG    | trading_bot.client | POST /fapi/v1/order
+2026-04-21 16:11:09 | DEBUG    | trading_bot.client | HTTP 200 https://testnet.binancefuture.com/fapi/v1/order
+2026-04-21 16:11:09 | DEBUG    | trading_bot.client | Response body: {"orderId":13057329000,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"nVZSaAHAjx1h7PdMTN8fxM","price":"0.00","avgPrice":"0.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","cumQuote":"0.000000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"SELL","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1776768069290}
+2026-04-21 16:11:09 | INFO     | trading_bot.orders | Order accepted | orderId=13057329000 status=NEW executedQty=0.0000 avgPrice=0.00
+2026-04-21 16:11:09 | DEBUG    | trading_bot.orders | Full order response: {'orderId': 13057329000, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'nVZSaAHAjx1h7PdMTN8fxM', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1776768069290}
+2026-04-21 16:11:09 | INFO     | trading_bot.cli | Trading bot finished successfully
+2026-04-21 16:11:09 | INFO     | trading_bot.cli | ============================================================
+2026-04-21 16:11:30 | INFO     | trading_bot.cli | ============================================================
+2026-04-21 16:11:30 | INFO     | trading_bot.cli | Trading bot started
+2026-04-21 16:11:30 | DEBUG    | trading_bot.validators | Order type validated: LIMIT
+2026-04-21 16:11:30 | DEBUG    | trading_bot.validators | Symbol validated: BTCUSDT
+2026-04-21 16:11:30 | DEBUG    | trading_bot.validators | Side validated: BUY
+2026-04-21 16:11:30 | DEBUG    | trading_bot.validators | Quantity validated: 0.001
+2026-04-21 16:11:30 | DEBUG    | trading_bot.validators | Price validated: 50000
+2026-04-21 16:11:30 | INFO     | trading_bot.orders | Placing BUY LIMIT order | symbol=BTCUSDT qty=0.001 price=50000
+2026-04-21 16:11:30 | DEBUG    | trading_bot.orders | Order request params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': '0.001', 'price': '50000', 'timeInForce': 'GTC'}
+2026-04-21 16:11:30 | DEBUG    | trading_bot.client | POST /fapi/v1/order
+2026-04-21 16:11:30 | DEBUG    | trading_bot.client | HTTP 200 https://testnet.binancefuture.com/fapi/v1/order
+2026-04-21 16:11:30 | DEBUG    | trading_bot.client | Response body: {"orderId":13057329775,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"l0Af9lXZSxYXjQ5z8uTgo8","price":"50000.00","avgPrice":"0.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","cumQuote":"0.000000","timeInForce":"GTC","type":"LIMIT","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"LIMIT","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1776768090755}
+2026-04-21 16:11:30 | INFO     | trading_bot.orders | Order accepted | orderId=13057329775 status=NEW executedQty=0.0000 avgPrice=0.00
+2026-04-21 16:11:30 | DEBUG    | trading_bot.orders | Full order response: {'orderId': 13057329775, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'l0Af9lXZSxYXjQ5z8uTgo8', 'price': '50000.00', 'avgPrice': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1776768090755}
+2026-04-21 16:11:30 | INFO     | trading_bot.cli | Trading bot finished successfully
+2026-04-21 16:11:30 | INFO     | trading_bot.cli | ============================================================
+2026-04-21 16:11:42 | INFO     | trading_bot.cli | ============================================================
+2026-04-21 16:11:42 | INFO     | trading_bot.cli | Trading bot started
+2026-04-21 16:11:42 | DEBUG    | trading_bot.validators | Order type validated: LIMIT
+2026-04-21 16:11:42 | DEBUG    | trading_bot.validators | Symbol validated: BTCUSDT
+2026-04-21 16:11:42 | DEBUG    | trading_bot.validators | Side validated: SELL
+2026-04-21 16:11:42 | DEBUG    | trading_bot.validators | Quantity validated: 0.001
+2026-04-21 16:11:42 | DEBUG    | trading_bot.validators | Price validated: 90000
+2026-04-21 16:11:42 | INFO     | trading_bot.orders | Placing SELL LIMIT order | symbol=BTCUSDT qty=0.001 price=90000
+2026-04-21 16:11:42 | DEBUG    | trading_bot.orders | Order request params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '90000', 'timeInForce': 'GTC'}
+2026-04-21 16:11:42 | DEBUG    | trading_bot.client | POST /fapi/v1/order
+2026-04-21 16:11:42 | DEBUG    | trading_bot.client | HTTP 200 https://testnet.binancefuture.com/fapi/v1/order
+2026-04-21 16:11:42 | DEBUG    | trading_bot.client | Response body: {"orderId":13057330160,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"C4bjaZA6gl00kcuynvr1Fp","price":"90000.00","avgPrice":"0.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","cumQuote":"0.000000","timeInForce":"GTC","type":"LIMIT","reduceOnly":false,"closePosition":false,"side":"SELL","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"LIMIT","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1776768103006}
+2026-04-21 16:11:42 | INFO     | trading_bot.orders | Order accepted | orderId=13057330160 status=NEW executedQty=0.0000 avgPrice=0.00
+2026-04-21 16:11:42 | DEBUG    | trading_bot.orders | Full order response: {'orderId': 13057330160, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'C4bjaZA6gl00kcuynvr1Fp', 'price': '90000.00', 'avgPrice': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1776768103006}
+2026-04-21 16:11:42 | INFO     | trading_bot.cli | Trading bot finished successfully
+2026-04-21 16:11:42 | INFO     | trading_bot.cli | ============================================================
+2026-04-21 16:11:53 | INFO     | trading_bot.cli | ============================================================
+2026-04-21 16:11:53 | INFO     | trading_bot.cli | Trading bot started
+2026-04-21 16:11:53 | DEBUG    | trading_bot.validators | Order type validated: LIMIT
+2026-04-21 16:11:53 | DEBUG    | trading_bot.validators | Symbol validated: BTCUSDT
+2026-04-21 16:11:53 | DEBUG    | trading_bot.validators | Side validated: BUY
+2026-04-21 16:11:53 | DEBUG    | trading_bot.validators | Quantity validated: 0.001
+2026-04-21 16:11:53 | ERROR    | trading_bot.cli | Validation failed: Price is required for LIMIT orders.
+2026-04-21 16:12:08 | INFO     | trading_bot.cli | ============================================================
+2026-04-21 16:12:08 | INFO     | trading_bot.cli | Trading bot started
+2026-04-21 16:12:08 | DEBUG    | trading_bot.validators | Order type validated: MARKET
+2026-04-21 16:12:08 | ERROR    | trading_bot.cli | Validation failed: Invalid symbol 'INVALID'. Expected format: BTCUSDT, ETHUSDT, etc.
